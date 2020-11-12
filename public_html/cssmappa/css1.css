@@ -23,6 +23,7 @@ tr{
 td{
         border: black 3px solid;
         font-weight: bold;
+        padding: 10px;
 }
 
 .menubar{
@@ -40,4 +41,13 @@ td{
     
     width: 120px;
     margin: 15px;
+}
+th{
+    color: bisque;
+    background-color: black;
+    padding: 15px;
+}
+p{
+    text-align: center;
+    font-family: sans-serif;
 }
