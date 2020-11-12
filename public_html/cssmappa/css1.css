@@ -24,3 +24,20 @@ td{
         border: black 3px solid;
         font-weight: bold;
 }
+
+.menubar{
+    background: rgb(0,100,0);
+    text-align: center;
+}
+
+.menubar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;s
+}
+
+.menubar ul li{
+    
+    width: 120px;
+    margin: 15px;
+}
