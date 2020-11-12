@@ -1,3 +1,7 @@
 Ókori világ 7 csodája
-8 oldal abbol 1 menü 7 mellékoldal
+8 oldal abbol 1 menü 7 mellékoldal , minden mellékoldal = 1 csoda
+Bevezető menü , elosztó oldal , táblázat
+Mindenhez különböző illő háttérkép , 1-2 kép és szöveg , minden oldalon más , hasonló
+
+Chrome,Firefox,Microsoft Edge,Internet Explorer,Opera , Apache 2.4.41 , Win64 
 
