@@ -11,6 +11,7 @@ body{
     text-align: center;
     font-family: sans-serif;
     font-size: 14px;
+    background-color: bisque;
 }
 table{
     margin-left: auto;
@@ -50,4 +51,14 @@ th{
 p{
     text-align: center;
     font-family: sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+.text{
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: burlywood;
+}
+h1{
+    padding: 20px;
 }
