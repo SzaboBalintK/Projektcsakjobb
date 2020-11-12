@@ -29,7 +29,7 @@ td{
 }
 
 .menubar{
-    background: rgb(0,100,0);
+    background: black;
     text-align: center;
 }
 
@@ -43,6 +43,7 @@ td{
     
     width: 120px;
     margin: 15px;
+    padding: 15px;
 }
 th{
     color: bisque;
@@ -71,4 +72,13 @@ img{
 }
 tr:hover{
     background-color: #ffddb3;
+}
+
+h2{
+    size: 20px;
+}
+
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
 }
