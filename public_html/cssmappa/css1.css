@@ -87,3 +87,8 @@ h2{
     text-decoration: none;
     color: white;
 }
+.parag{
+    border: black 3px solid;
+    background-color: bisque;
+    margin-bottom: 50px;
+}
