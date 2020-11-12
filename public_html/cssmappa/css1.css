@@ -15,7 +15,12 @@ body{
 table{
     margin-left: auto;
     margin-right: auto;
+    border: black 3px solid;
 }
 tr{
-    
+    background-color: bisque;
+}
+td{
+        border: black 3px solid;
+        font-weight: bold;
 }
