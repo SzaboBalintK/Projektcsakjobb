@@ -20,23 +20,10 @@ td{
         padding: 10px;
 }
 
-.menubar{
-    background: black;
-    text-align: center;
-}
-
-.menubar ul{
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
-}
-
-.menubar ul li{
+#menubar{
     
-    width: 120px;
-    margin: 15px;
-    padding: 15px;
 }
+
 th{
     color: bisque;
     background-color: black;
