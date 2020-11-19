@@ -21,23 +21,21 @@ td{
         text-align: center;
 }
 
-.menubar{
-    background: black;
-    text-align: center;
-}
-
-.menubar ul{
-    display: inline-flex;
-    list-style: none;
-    color: #fff;
-}
-
-.menubar ul li{
-    
-    width: 120px;
-    margin: 15px;
+div#menubar a{
+    color: black;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-decoration: none;
     padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+    
 }
+
 th{
     color: bisque;
     background-color: black;
@@ -88,4 +86,12 @@ h2{
     border: black 3px solid;
     background-color: bisque;
     margin-bottom: 50px;
+}
+
+div#menubar{
+    background: burlywood;
+    border: black 5px solid;
+}
+div#menubar:hover{
+    cursor: auto;
 }
