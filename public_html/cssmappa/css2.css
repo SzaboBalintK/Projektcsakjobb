@@ -12,3 +12,19 @@ body{
     font-family: sans-serif;
     font-size: 14px;
 }
+.img11{
+    float: right;
+}
+div{
+    border: black 1px solid;
+}
+.img12{
+    float: left;
+}
+div.div1piramis{
+    margin-bottom: 200px;
+}
+p.p1{
+    text-align: left;
+    text-align: right;
+}
