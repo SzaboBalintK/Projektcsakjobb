@@ -7,8 +7,44 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="cssmappa/css1.css" rel="stylesheet" type="text/css"/>
-    </head>
     <body>
+                               <div id="top">
+		<div class="innerpage">
+			<div id="weather_block">
+<div class="wrapper_weather">
+<span>           <div class="wrapper">
+      <div class="display">
+        <div id="time">
+</div>
+</div>
+<span></span>
+      <span></span>
+    </div>
+<script>
+      setInterval(()=>{
+        const time = document.querySelector(".display #time");
+        let date = new Date();
+        let hours = date.getHours();
+        let minutes = date.getMinutes();
+        let seconds = date.getSeconds();
+        let day_night = "AM";
+        if(hours > 12){
+          day_night = "PM";
+          hours = hours - 12;
+        }
+        if(seconds < 10){
+          seconds = "0" + seconds;
+        }
+        if(minutes < 10){
+          minutes = "0" + minutes;
+        }
+        if(hours < 10){
+          hours = "0" + hours;
+        }
+        time.textContent = hours + ":" + minutes + ":" + seconds + " "+ day_night;
+      });
+    </script></span>
+</div>
         <div class="hatterkep">
         </div>
         <div id="menubar">
