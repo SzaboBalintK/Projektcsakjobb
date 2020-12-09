@@ -15,21 +15,17 @@ setInterval(function() {
 
   var hours = currentTime.getHours();
   var minutes = currentTime.getMinutes();
-  var seconds = currentTime.getSeconds();
-  var period = "AM";
-  if (hours >= 12) {
-    period = "PM";
+  var period = "";
+  if (hours >= 24) {
+    period = "";
   }
-  if (hours > 12) {
+  if (hours > 24) {
     hours = hours - 12;
-  }
-  if (seconds < 10) {
-    seconds = "0" + seconds;
   }
   if (minutes < 10) {
     minutes = "0" + minutes;
   } 
-  var clockTime = hours + ":" + minutes + ":" + seconds + " " + period;
+  var clockTime = hours + ":" + minutes + " " + period;
 
   var clock = document.getElementById('clock');
   clock.innerText = clockTime;
