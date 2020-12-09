@@ -17,8 +17,7 @@
         <div id="time">
 </div>
 </div>
-<span></span>
-      <span></span>
+
     </div>
 <script>
       setInterval(()=>{
@@ -26,14 +25,10 @@
         let date = new Date();
         let hours = date.getHours();
         let minutes = date.getMinutes();
-        let seconds = date.getSeconds();
         let day_night = "AM";
         if(hours > 12){
           day_night = "PM";
           hours = hours - 12;
-        }
-        if(seconds < 10){
-          seconds = "0" + seconds;
         }
         if(minutes < 10){
           minutes = "0" + minutes;
