@@ -14,10 +14,10 @@ tr{
     background-color: bisque;
 }
 td{
-        border: black 3px solid;
-        font-weight: bold;
-        padding: 10px;
-        text-align: center;
+    border: black 3px solid;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
 }
 
 div#menubar a{
@@ -97,7 +97,7 @@ div#menubar{
 
 .a1{
 
-    border: black 3px solid;
+
 
     border-right: #ce9c38 4px solid;
 
@@ -105,7 +105,7 @@ div#menubar{
 }
 .a2{
 
-    border: black 3px solid;
+
 
     border-right: #ce9c38 4px solid;
 
@@ -113,7 +113,7 @@ div#menubar{
 }
 .a3{
 
-    border: black 3px solid;
+
 
     border-right: #ce9c38 4px solid;
 
@@ -121,7 +121,7 @@ div#menubar{
 }
 .a4{
 
-    border: black 3px solid;
+
 
     border-right: #ce9c38 4px solid;
 
@@ -129,7 +129,7 @@ div#menubar{
 }
 .a5{
 
-    border: black 3px solid;
+
 
     border-right: #ce9c38 4px solid;
 
@@ -137,7 +137,7 @@ div#menubar{
 }
 .a6{
 
-    border: black 3px solid;  
+
 
     border-right: #ce9c38 4px solid;
 
@@ -145,7 +145,6 @@ div#menubar{
 }
 .a7{
 
-    border: black 3px solid;
 
     border-right: #ce9c38 4px solid;
 
@@ -153,7 +152,7 @@ div#menubar{
 }
 .a8{
 
-    border: black 3px solid;
+
 
     border: none;
 
