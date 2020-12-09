@@ -3,7 +3,7 @@ body{
     text-align: center;
     font-family: sans-serif;
     font-size: 14px;
-    background-image: url('xdd.jpg');         
+    background-image: url('korte.jpeg');         
       
 }
 table{
@@ -99,63 +99,7 @@ div#menubar{
 .a1{
 
 
-
     border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a2{
-
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a3{
-
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a4{
-
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a5{
-
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a6{
-
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a7{
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a8{
-
-
-
-    border: none;
 
     background-color: #2b2b2b;
 }
@@ -185,3 +129,4 @@ div.innerpage {
     font-family: 'freeserifbold';
 }
 
+#div.menubar a1
