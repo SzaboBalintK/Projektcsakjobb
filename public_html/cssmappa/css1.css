@@ -3,7 +3,11 @@ body{
     text-align: center;
     font-family: sans-serif;
     font-size: 14px;
+<<<<<<< HEAD
     background-image: url('xdd.jpg');         
+=======
+    background-image: url('arany.jpg');         
+>>>>>>> origin/master
 }
 table{
     margin-left: auto;
