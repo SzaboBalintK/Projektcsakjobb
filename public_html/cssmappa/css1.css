@@ -91,40 +91,72 @@ div#menubar{
     top: 0px;
     left: auto;
     right: auto;
-    background-color: burlywood;
+    background-color: #2b2b2b;
     margin: 0px;
 }
 
 .a1{
+<<<<<<< HEAD
     border: black 3px solid;
+=======
+    border-right: #ce9c38 4px solid;
+>>>>>>> origin/master
     background-color: #2b2b2b;
 }
 .a2{
+<<<<<<< HEAD
     border: black 3px solid;
+=======
+    border-right: #ce9c38 4px solid;
+>>>>>>> origin/master
     background-color: #2b2b2b;
 }
 .a3{
+<<<<<<< HEAD
     border: black 3px solid;
+=======
+    border-right: #ce9c38 4px solid;
+>>>>>>> origin/master
     background-color: #2b2b2b;
 }
 .a4{
+<<<<<<< HEAD
     border: black 3px solid;
+=======
+    border-right: #ce9c38 4px solid;
+>>>>>>> origin/master
     background-color: #2b2b2b;
 }
 .a5{
+<<<<<<< HEAD
     border: black 3px solid;
+=======
+    border-right: #ce9c38 4px solid;
+>>>>>>> origin/master
     background-color: #2b2b2b;
 }
 .a6{
+<<<<<<< HEAD
     border: black 3px solid;  
+=======
+    border-right: #ce9c38 4px solid;
+>>>>>>> origin/master
     background-color: #2b2b2b;
 }
 .a7{
+<<<<<<< HEAD
     border: black 3px solid;
+=======
+    border-right: #ce9c38 4px solid;
+>>>>>>> origin/master
     background-color: #2b2b2b;
 }
 .a8{
+<<<<<<< HEAD
     border: black 3px solid;
+=======
+    border: none;
+>>>>>>> origin/master
     background-color: #2b2b2b;
 }
 
