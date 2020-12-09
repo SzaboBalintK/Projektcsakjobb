@@ -100,8 +100,9 @@ div#menubar{
 }
 
 .a1{
+    min-width: 7%;
     max-width: 7%;
-    border-right: #ce9c38 4px  solid;
+    border-right: #ce9c38 4px solid;
 
     background-color: #2b2b2b;
 }
@@ -127,7 +128,7 @@ div.innerpage {
     margin: 1px;
     color: #ce9c38;
     font-family: 'freeserifbold';
-
+}
 .a1::after{
     content: '';
     display:block;
