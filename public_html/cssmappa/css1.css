@@ -55,15 +55,12 @@ p{
     margin-right: 200px;
     border: black 4px solid;
     background-image: url('ba.jpg');
-
     background-color:#333333;
-
     background-color:#333333;
-
     margin-bottom: 100px;
     margin-top: 100px;
     padding: 50px;
-    border: #1a1a1a 1.7px solid;
+    border: black 4px solid;;
     border-radius: 50px;
 }
 h1{
@@ -92,10 +89,8 @@ h2{
 }
 .parag{
     border: black 3px solid;
-    background-image: url('b.jpg');
-    border: none;
+    background-image: url('b.jpg');   
     background-color: #333333;
-    border: none;
     background-color: #333333;
     margin-bottom: 50px;
 }
