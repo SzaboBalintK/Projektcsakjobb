@@ -8,8 +8,34 @@ and open the template in the editor.
     Author     : Bales47
 */
 body{
-    text-align: center;
     font-family: sans-serif;
     font-size: 14px;
 }
 
+#szovg{
+    border: aquamarine 4px dashed;
+    background-color: antiquewhite;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.pira1{
+    height: 400px;
+}
+
+.p1{
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+.p2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+img{
+    border: black 10px solid;
+    text-align: center;
+}
