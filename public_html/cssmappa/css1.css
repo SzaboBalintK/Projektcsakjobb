@@ -3,8 +3,8 @@ body{
     text-align: center;
     font-family: sans-serif;
     font-size: 14px;
-    background-image: url('xdd.jpg');         
-      
+    background-color: #2b2b2b;     
+    font-family: 'pf_din_text_comp_promedium';
 }
 table{
     margin-left: auto;
@@ -12,14 +12,18 @@ table{
     border: black 3px solid;
 }
 tr{
-    background-color: bisque;
+    background-color: #404040;
 }
 td{
     border: black 3px solid;
     font-weight: bold;
     padding: 10px;
     text-align: center;
+<<<<<<< HEAD
     background-image: url('baig.jpg')
+=======
+    color:#ce9c38;
+>>>>>>> origin/master
 }
 
 div#menubar a{
@@ -36,12 +40,13 @@ div#menubar a{
 }
 
 th{
-    color: bisque;
-    background-color: black;
+    color: #cc9933;
+    background-color: #1a1a1a;
     padding: 15px;
     font-size: 20px;
 }
 p{
+    color: #ce9c38;
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
@@ -51,14 +56,19 @@ p{
 .text{
     margin-left: 200px;
     margin-right: 200px;
+<<<<<<< HEAD
     background-image: url('ba.jpg');
+=======
+    background-color:#333333;
+>>>>>>> origin/master
     margin-bottom: 100px;
     margin-top: 100px;
     padding: 50px;
-    border: black 3px solid;
+    border: #1a1a1a 1.7px solid;
     border-radius: 50px;
 }
 h1{
+    color:#cc9933;
     padding: 20px;
     margin-top: 2px;
     font-size: 75px;
@@ -70,7 +80,7 @@ img{
     border-collapse: collapse;
 }
 tr:hover{
-    background-color: #ffddb3;
+    background-color: #666666;
 }
 
 h2{
@@ -82,13 +92,18 @@ h2{
     color: white;
 }
 .parag{
+<<<<<<< HEAD
     border: black 3px solid;
     background-image: url('b.jpg');
+=======
+    border: none;
+    background-color: #333333;
+>>>>>>> origin/master
     margin-bottom: 50px;
 }
 
 div#menubar{
-    border: black 2px solid;
+    border-bottom: #ce9c38 1px solid;
     position: sticky;   
     top: 0px;
     left: auto;
@@ -98,91 +113,23 @@ div#menubar{
 }
 
 .a1{
-
-
-
+    min-width: 7%;
+    max-width: 7%;
     border-right: #ce9c38 4px solid;
 
     background-color: #2b2b2b;
 }
-.a2{
-
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a3{
-
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a4{
-
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a5{
-
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a6{
-
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a7{
-
-
-    border-right: #ce9c38 4px solid;
-
-    background-color: #2b2b2b;
-}
-.a8{
-
-
-
-    border: none;
-
-    background-color: #2b2b2b;
+.a1::after{
+    content: '';
+    display:block;
+    width: 0;
+    height: 2px;
+    background: #a37a29;
+    transition: width .3s;
 }
 
-#top {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    background: #2b2b2b;
-    height: 20px;
+.a1:hover::after{
     width: 100%;
+    transition: width .3s;
+    
 }
-div.innerpage {
-    margin: 0px;
-    position: relative;
-}
-
-#weather_block {
-    margin: 0px;
-    margin-bottom: 0px;
-    font-family: 'pf_din_text_comp_promedium';
-}
-
-#weather_block span {
-    padding-top: 0px;
-    margin: 1px;
-    color: #ce9c38;
-    font-family: 'freeserifbold';
-}
-
