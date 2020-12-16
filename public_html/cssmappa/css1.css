@@ -11,6 +11,7 @@ table{
     margin-left: auto;
     margin-right: auto;
     border: black 3px solid;
+    margin-top: 35px;
 }
 tr{
     background-color: #404040;
@@ -94,7 +95,7 @@ h2{
     background-image: url('b.jpg');   
     background-color: #333333;
     background-color: #333333;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 div#menubar{
@@ -127,4 +128,11 @@ div#menubar{
     width: 100%;
     transition: width .3s;
     
+}
+
+embed{
+    border: black 1px solid;
+    border-radius: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
