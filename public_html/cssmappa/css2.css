@@ -46,3 +46,16 @@ img{
     width: 200px;
     float: right;
 }
+.p1giza{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    border: black 4px solid;
+    background-image: url('ba.jpg');
+    background-color:#333333;
+    background-color:#333333;
+    margin-bottom: 35px;
+    margin-top: 35px;
+    border: black 4px solid;
+    padding: 20px;
+}
