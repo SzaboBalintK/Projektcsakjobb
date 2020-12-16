@@ -13,6 +13,9 @@ body{
     font-size: 14px;
 }
 
-text{
-    border: 
+.text{
+    border: black 2px solid;
+    background-image: url('b.jpg');
+    margin-left: 13%;
+    margin-right: 13%;
 }
