@@ -15,7 +15,13 @@ body{
 
 .text{
     border: black 2px solid;
-    background-image: url('b.jpg');
-    margin-left: 13%;
-    margin-right: 13%;
+    background-image: url('homik.jpg');
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-top: 4%;
+    border-radius: 25px;
+}
+
+.szöveg{
+    border: black 2px solid;
 }
