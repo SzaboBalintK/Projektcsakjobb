@@ -18,6 +18,7 @@ table{
     margin-left: auto;
     margin-right: auto;
     border: black 3px solid;
+    margin-top: 35px;
 }
 tr{
     background-color: #404040;
@@ -72,4 +73,66 @@ h1{
     padding: 20px;
     margin-top: 2px;
     font-size: 75px;
+}
+img{
+    width: 300px;
+}
+.collapse{
+    border-collapse: collapse;
+}
+tr:hover{
+    background-color: #666666;
+}
+
+h2{
+    size: 20px;
+}
+
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.parag{
+    border: black 3px solid;
+    background-color: #404040;
+    margin-bottom: 35px;
+}
+
+div#menubar{
+    border-bottom: #ce9c38 1px solid;
+    position: sticky;   
+    top: 0px;
+    left: auto;
+    right: auto;
+    background-color: #2b2b2b;
+    margin: 0px;
+}
+
+.a1{
+    min-width: 7%;
+    max-width: 9%;
+    border-right: #ce9c38 4px solid;
+
+    background-color: #2b2b2b;
+}
+.a1::after{
+    content: '';
+    display:block;
+    width: 0;
+    height: 2px;
+    background: #a37a29;
+    transition: width .3s;
+}
+
+.a1:hover::after{
+    width: 100%;
+    transition: width .3s;
+    
+}
+
+embed{
+    border: black 1px solid;
+    border-radius: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
