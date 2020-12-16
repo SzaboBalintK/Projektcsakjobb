@@ -10,11 +10,12 @@ and open the template in the editor.
 body{
     font-family: sans-serif;
     font-size: 14px;
+    font-weight: bold;
 }
 
 #szovg{
     border: black 4px solid;
-    background-color: antiquewhite;
+    background-image: url('homik.jpg');
     margin-left: 200px;
     margin-right: 200px;
     margin-top: 100px;
@@ -38,4 +39,8 @@ body{
 img{
     border: black 10px solid;
     text-align: center;
+}
+.sfinx{
+    width: 200px;
+    float: right;
 }
