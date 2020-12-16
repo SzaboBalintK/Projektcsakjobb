@@ -7,6 +7,7 @@ body{
     font-family: 'pf_din_text_comp_promedium';
 }
 table{
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
     border: black 3px solid;
@@ -52,8 +53,9 @@ p{
     padding: 20px;
 }
 .text{
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
     border: black 4px solid;
     background-image: url('ba.jpg');
     background-color:#333333;
