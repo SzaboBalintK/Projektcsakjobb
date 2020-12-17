@@ -29,6 +29,8 @@ body{
     border: black 4px solid;
     margin-left: 7%;
     margin-right: 7%;
+    margin-bottom: 25px;
+    margin-top: 20px;
     margin-bottom: 2%;
     padding: 15px;
 }
@@ -37,7 +39,7 @@ img{
     border: black 3px solid;
     text-align: center;
     margin-bottom: 3%;
-    margin-top: 2%;
+
 }
 .text{
     padding: 25px;
