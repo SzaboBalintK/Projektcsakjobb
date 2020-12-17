@@ -13,6 +13,29 @@ body{
     font-size: 14px;
 }
 
-text{
-    border: 
+.text{
+    border: black 2px solid;
+    background-image: url('homik.jpg');
+    margin-left: 11%;
+    margin-right: 11%;
+    margin-top: 4%;
+    border-radius: 25px;
+}
+
+.szöveg{
+    background-image: url('b.jpg');
+    border: black 4px solid;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 2%;
+   
+}
+img{
+    width: 25%;
+    border: black 3px solid;
+    text-align: center;
+}
+.text{
+    padding: 25px;
+    margin-top: 100px;
 }
