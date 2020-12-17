@@ -29,13 +29,15 @@ body{
     border: black 4px solid;
     margin-left: 7%;
     margin-right: 7%;
-    margin-bottom: 2%;
-   padding: 15px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+    padding: 15px;
 }
 img{
     width: 25%;
     border: black 3px solid;
     text-align: center;
+    margin-bottom: 0px;
 }
 .text{
     padding: 25px;
