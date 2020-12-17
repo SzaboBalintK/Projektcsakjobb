@@ -30,7 +30,7 @@ body{
     margin-left: 7%;
     margin-right: 7%;
     margin-bottom: 25px;
-    margin-top: 20px;
+    margin-top: 35px;
     margin-bottom: 35px;
     padding: 15px;
 }
@@ -43,6 +43,6 @@ img{
 
 }
 .text{
-    padding: 35px;
+    padding: 25px;
     margin-top: 100px;
 }
