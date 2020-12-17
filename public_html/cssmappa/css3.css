@@ -15,7 +15,7 @@ body{
 
 .text{
     border: black 2px solid;
-    background-image: url('homik.jpg');
+    background-image: url('b.jpg');
     margin-left: 11%;
     margin-right: 11%;
     margin-top: 4%;
@@ -23,7 +23,7 @@ body{
 }
 
 .szöveg{
-    background-image: url('b.jpg');
+    background-image: url('homik.jpg');
     border: black 4px solid;
     margin-left: 7%;
     margin-right: 7%;
