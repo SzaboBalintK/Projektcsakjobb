@@ -14,81 +14,81 @@ and open the template in the editor.
         <script src="load.js" type="text/javascript"></script>
     </head>
     <body>
-<script>
-      document.addEventListener("DOMContentLoaded", function(){
-setInterval(function() {
-  var currentTime = new Date();
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                setInterval(function () {
+                    var currentTime = new Date();
 
-  var hours = currentTime.getHours();
-  var minutes = currentTime.getMinutes();
-  var period = "";
-  if (hours >= 24) {
-    period = "";
-  }
-  if (hours > 24) {
-    hours = hours - 12;
-  }
-  if (minutes < 10) {
-    minutes = "0" + minutes;
-  } 
-  var clockTime = hours + ":" + minutes + " " + period;
+                    var hours = currentTime.getHours();
+                    var minutes = currentTime.getMinutes();
+                    var period = "";
+                    if (hours >= 24) {
+                        period = "";
+                    }
+                    if (hours > 24) {
+                        hours = hours - 12;
+                    }
+                    if (minutes < 10) {
+                        minutes = "0" + minutes;
+                    }
+                    var clockTime = hours + ":" + minutes + " " + period;
 
-  var clock = document.getElementById('clock');
-  clock.innerText = clockTime;
-},1000);
-
-
-var d = new Date();
-var getday = d.getDay();
-var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-/*
-var weekday = new Array(7);
-weekday[0]=  "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
-*/
-var n = weekday[getday];
-
-var dd = d.getDate();
-var mm = d.getMonth() + 1;
-var yyyy = d.getFullYear();
-
-if(dd < 10) {
-  dd = "0" + dd;
-}
-
-if(mm < 10) {
-  mm = "0" + mm;
-}
-
-var today = dd + " / " + mm + " / " + yyyy;
-var displayWeekday = document.getElementById('day');
-var displayDate = document.getElementById('date');
+                    var clock = document.getElementById('clock');
+                    clock.innerText = clockTime;
+                }, 1000);
 
 
-function whatDayIsIt() {
-  displayWeekday.innerText = n ;
-}
+                var d = new Date();
+                var getday = d.getDay();
+                var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                /*
+                 var weekday = new Array(7);
+                 weekday[0]=  "Sunday";
+                 weekday[1] = "Monday";
+                 weekday[2] = "Tuesday";
+                 weekday[3] = "Wednesday";
+                 weekday[4] = "Thursday";
+                 weekday[5] = "Friday";
+                 weekday[6] = "Saturday";
+                 */
+                var n = weekday[getday];
 
-function whatDateIsIt() {
-  displayDate.innerText = today;
-}
+                var dd = d.getDate();
+                var mm = d.getMonth() + 1;
+                var yyyy = d.getFullYear();
 
-whatDayIsIt();
-whatDateIsIt();
-});
-    </script>
+                if (dd < 10) {
+                    dd = "0" + dd;
+                }
+
+                if (mm < 10) {
+                    mm = "0" + mm;
+                }
+
+                var today = dd + " / " + mm + " / " + yyyy;
+                var displayWeekday = document.getElementById('day');
+                var displayDate = document.getElementById('date');
+
+
+                function whatDayIsIt() {
+                    displayWeekday.innerText = n;
+                }
+
+                function whatDateIsIt() {
+                    displayDate.innerText = today;
+                }
+
+                whatDayIsIt();
+                whatDateIsIt();
+            });
+        </script>
         <div class="hatterkep">
         </div>
         <div id="menubar">
             <a class="a1"  href="index.html">Kezdőlap<br><div id="not-clock"><span></span></div>
-      <div id="clock"></div>
-        <script src="js/script.js"></script>
-</a>
+                <div id="clock"></div>
+                <script src="js/script.js"></script>
+            </a>
             <a class="a1"  href="Gízai nagy piramis.html">Gízai <br>nagy piramis</a>
             <a class="a1"  href="Szemiramisz függőkertje.html">Szemiramisz <br>függőkertje</a>
             <a class="a1"  href="Az epheszoszi Artemisz-templom.html">Az epheszoszi<br> Artemisz-templom</a>
@@ -96,6 +96,14 @@ whatDateIsIt();
             <a class="a1"  href="A halikarnasszoszi mauzóleum.html">A halikarnasszoszi<br> mauzóleum</a>
             <a class="a1"  href="A rodoszi kolosszus.html">A rodoszi <br>kolosszus</a>
             <a class="a1"  href="A pharoszi világítótorony.html">A pharoszi<br> világítótorony</a>
+        </div>
+        <div class="text">
+            <h1>Az ephoszi Artemisz-templom</h1>
+            <p>Artemisz templomát Diana templomaként is ismerhetjük, mivel a görög Artemisz istennő római megfelelője Diana, Zeusz és Létó gyermeke, Apollón ikertestvére a görög mitológiában. Artemisz a Hold és a vadászat szűz istennője, akinek az ókori görög templomot felajánlották. A templom Kr. e. 550 körül épült Epheszoszban a Perzsa Birodalom, a mai Törökország területén. Az 51 méter széles és 105 méter hosszúságú templomot 120 évig építették. A munkálatok Kr. e. 550 körül kezdődtek, a tervezőmérnök Khersziphrón és annak a fia Metagenész volt. Az alapozására különös gondot fordítottak, ugyanis ezen a vidéken igen gyakoriak voltak a földrengések, ezért egy lágy talajú vidéken jelölték ki a templom helyét. Az épület gyorsan turisztikai attrakcióvá vált: számos király, kereskedő, zarándok látogatta meg és hozott különféle ajándékokat a templomnak.
+                Artemisz temploma igazán impozáns látványt nyújthatott 127, egyenként 18 méter magas márványoszlopával, melyek a tetőszerkezetet tartották. Utóbbit cédrusfából, míg a szentély magas, arannyal és drága festékekkel dúsan feldíszített, csiszolt szárnyas ajtajait ciprusfából készítették. A szentély belsejében helyezkedett el az istennő két méteres, fából faragott szobra, amit arannyal és ezüsttel borítottak.</p>
+            <img src="kepek/arthemius.jpg" alt=""/>
+            <p>Sajnos a templom Kr. e. 356. július 21-én teljesen elpusztult egyetlen éjszaka alatt. Egy Hérosztratosz nevű ember gyújtotta fel a templomot, aki tettét azzal indokolta, hogy be akart kerülni a történelemkönyvekbe. Az ephészoszi hatóságok ezért nem csak halálra ítélték, de kivégzése után a nevének említését is megtiltották, halálbüntetés terhe mellett, hogy esetleges követőinek elvegyék a kedvét a hasonló próbálkozásoktól. Kr. e. 334-ben Nagy Sándor felajánlotta az epheszosziaknak, hogy újjáépítteti a templomot saját költségén, ha a nevét feltüntetik a templom egyik falán. Az epheszosziak visszautasították Nagy Sándor aranyát és saját költségükből építették fel az új templomot, szebbre, nagyobbra, mint az eredetit. Ezt Deinokratész tervezte és építette.Amikor Epheszosz városa a Római Birodalom fennhatósága alá került, a rómaiak nem rombolták le a szentélyt, mert Artemisz istennőt Diana istennővel azonosították.
+                Az épület végnapjai a Kr. u. 262-ik esztendőben erre vonuló gót hordák megjelenésével kezdődtek. Előbb kifosztották, majd lerombolták a csodás épületet, és a kereszténység államvallássá válása után végleg elveszítette jelentőségét. Az építmény köveit a környék építkezéseire hordták. Mára a templom alapjának néhány kőtömbje és egyetlen helyreállított oszlop maradt fenn.</p>
         </div>
     <div class="text">
         <h1>Az ephoszi Artemisz-templom</h1>
