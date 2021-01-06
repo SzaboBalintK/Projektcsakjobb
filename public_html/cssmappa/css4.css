@@ -21,6 +21,7 @@ body{
     border-radius: 25px;
     font-size: 16px;
     font-weight: bold;
+    padding-bottom: 30px;
 }
 img{
     width: 600px;
@@ -36,4 +37,4 @@ img{
     margin-top: 35px;
     margin-bottom: 35px;
     padding: 15px;
-}
+    }
