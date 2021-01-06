@@ -13,82 +13,82 @@ and open the template in the editor.
         <link href="cssmappa/css5.css" rel="stylesheet" type="text/css"/>
         <script src="load.js" type="text/javascript"></script>
     </head>
-   <body>
-<script>
-      document.addEventListener("DOMContentLoaded", function(){
-setInterval(function() {
-  var currentTime = new Date();
+    <body>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                setInterval(function () {
+                    var currentTime = new Date();
 
-  var hours = currentTime.getHours();
-  var minutes = currentTime.getMinutes();
-  var period = "";
-  if (hours >= 24) {
-    period = "";
-  }
-  if (hours > 24) {
-    hours = hours - 12;
-  }
-  if (minutes < 10) {
-    minutes = "0" + minutes;
-  } 
-  var clockTime = hours + ":" + minutes + " " + period;
+                    var hours = currentTime.getHours();
+                    var minutes = currentTime.getMinutes();
+                    var period = "";
+                    if (hours >= 24) {
+                        period = "";
+                    }
+                    if (hours > 24) {
+                        hours = hours - 12;
+                    }
+                    if (minutes < 10) {
+                        minutes = "0" + minutes;
+                    }
+                    var clockTime = hours + ":" + minutes + " " + period;
 
-  var clock = document.getElementById('clock');
-  clock.innerText = clockTime;
-},1000);
-
-
-var d = new Date();
-var getday = d.getDay();
-var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-/*
-var weekday = new Array(7);
-weekday[0]=  "Sunday";
-weekday[1] = "Monday";
-weekday[2] = "Tuesday";
-weekday[3] = "Wednesday";
-weekday[4] = "Thursday";
-weekday[5] = "Friday";
-weekday[6] = "Saturday";
-*/
-var n = weekday[getday];
-
-var dd = d.getDate();
-var mm = d.getMonth() + 1;
-var yyyy = d.getFullYear();
-
-if(dd < 10) {
-  dd = "0" + dd;
-}
-
-if(mm < 10) {
-  mm = "0" + mm;
-}
-
-var today = dd + " / " + mm + " / " + yyyy;
-var displayWeekday = document.getElementById('day');
-var displayDate = document.getElementById('date');
+                    var clock = document.getElementById('clock');
+                    clock.innerText = clockTime;
+                }, 1000);
 
 
-function whatDayIsIt() {
-  displayWeekday.innerText = n ;
-}
+                var d = new Date();
+                var getday = d.getDay();
+                var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+                /*
+                 var weekday = new Array(7);
+                 weekday[0]=  "Sunday";
+                 weekday[1] = "Monday";
+                 weekday[2] = "Tuesday";
+                 weekday[3] = "Wednesday";
+                 weekday[4] = "Thursday";
+                 weekday[5] = "Friday";
+                 weekday[6] = "Saturday";
+                 */
+                var n = weekday[getday];
 
-function whatDateIsIt() {
-  displayDate.innerText = today;
-}
+                var dd = d.getDate();
+                var mm = d.getMonth() + 1;
+                var yyyy = d.getFullYear();
 
-whatDayIsIt();
-whatDateIsIt();
-});
-    </script>
+                if (dd < 10) {
+                    dd = "0" + dd;
+                }
+
+                if (mm < 10) {
+                    mm = "0" + mm;
+                }
+
+                var today = dd + " / " + mm + " / " + yyyy;
+                var displayWeekday = document.getElementById('day');
+                var displayDate = document.getElementById('date');
+
+
+                function whatDayIsIt() {
+                    displayWeekday.innerText = n;
+                }
+
+                function whatDateIsIt() {
+                    displayDate.innerText = today;
+                }
+
+                whatDayIsIt();
+                whatDateIsIt();
+            });
+        </script>
         <div class="hatterkep">
         </div>
         <div id="menubar">
             <a class="a1"  href="index.html">Kezdőlap<br><div id="not-clock"><span></span></div>
-      <div id="clock"></div>
-        <script src="js/script.js"></script>
-</a>
+                <div id="clock"></div>
+                <script src="js/script.js"></script>
+            </a>
             <a class="a1"  href="Gízai nagy piramis.html">Gízai <br>nagy piramis</a>
             <a class="a1"  href="Szemiramisz függőkertje.html">Szemiramisz <br>függőkertje</a>
             <a class="a1"  href="Az epheszoszi Artemisz-templom.html">Az epheszoszi<br> Artemisz-templom</a>
@@ -99,10 +99,10 @@ whatDateIsIt();
         </div>
         <div class="text">
             <h1>Pheidiasz olümpiai Zeusz-szobra</h1>
+            <img src="kepek/zeus.jpg" alt=""/>
             <p>Az olümpiai Zeusz-szobor egy közel 12 m magas ülő szobor volt, amelyet Pheidiasz készített az i.e. 430-as években. A szobor a görögországi Olümpiában állt, a Zeusz tiszteletére emelt templomban. Zeusz volt az ég és a villámok ura az ókori görög vallásban, valamint az olümposziak főistene.
-A szobor elefántcsontból és aranyból készült, amit ébenfa keretre illesztettek. Zeusz jobb kezében egy kis szobor állt, ami Nikét, a győzelem istennőjét ábrázolta, bal kezében pedig jogarát tartotta, amely tetején egy sas ült. A saruja és a palástja is aranyból volt, Zeusz lábainál pedig szfinxek és más szárnyas figurák ültek. A ruhájára állatokat és liliomokat véstek. Zeusz cédrusfa trónját elefántcsont, arany és ébenfa mellett drágakövek is díszítették.
-A szobor az ókori világ hét csodájának egyike volt, az i.u. 5. században veszett el. Alakját csak korabeli görög leírásokból és érméken való ábrázolásokból ismerjük.</p>
-         
+                A szobor elefántcsontból és aranyból készült, amit ébenfa keretre illesztettek. Zeusz jobb kezében egy kis szobor állt, ami Nikét, a győzelem istennőjét ábrázolta, bal kezében pedig jogarát tartotta, amely tetején egy sas ült. A saruja és a palástja is aranyból volt, Zeusz lábainál pedig szfinxek és más szárnyas figurák ültek. A ruhájára állatokat és liliomokat véstek. Zeusz cédrusfa trónját elefántcsont, arany és ébenfa mellett drágakövek is díszítették.
+                A szobor az ókori világ hét csodájának egyike volt, az i.u. 5. században veszett el. Alakját csak korabeli görög leírásokból és érméken való ábrázolásokból ismerjük.</p>
         </div>
     </body>
 </html>
