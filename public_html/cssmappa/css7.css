@@ -24,7 +24,10 @@ body{
     font-weight: bold;
 }
 
-
+img{
+    border: black 3px solid;
+    width: 500px;
+}
 .szöveg{
         background-image: url('homik.jpg');
     border: black 4px solid;
