@@ -136,3 +136,6 @@ embed{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+tr:hover{
+    opacity: 0.8;
+}
